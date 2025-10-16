@@ -1,0 +1,120 @@
+7.2920 	INFO 	Loaded monitor calibration from ['2025_08_11 15:22']
+7.3031 	WARNING 	User requested fullscreen with size [1280  720], but screen is actually [1920, 1080]. Using actual size
+7.7230 	INFO 	Using renderer 'Intel(R) Iris(R) Xe Graphics' for graphics
+7.7230 	INFO 	OpenGL version supported by driver is 4..
+7.7848 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000195F73C1F60>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000195F73C1F00>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000195F746F8B0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.7848 	EXP 	window1: backgroundImage = ''
+7.7848 	EXP 	window1: backgroundFit = 'none'
+8.1328 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.1328 	EXP 	window1: recordFrameIntervals = False
+8.2869 	EXP 	window1: recordFrameIntervals = True
+8.4702 	EXP 	Screen (0) actual frame rate measured at 60.13Hz
+8.4702 	EXP 	window1: recordFrameIntervals = False
+8.7384 	INFO 	keyboard.Keyboard is using ptb backend.
+8.7386 	INFO 	keyboard.Keyboard is using ptb backend.
+8.7386 	EXP 	DelayDiscounting_Experiment: status = STARTED
+8.7413 	EXP 	Created Fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Fixation', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+8.7622 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+0.0057 	EXP 	Imported C:/Users/Darsh Modi/OneDrive/Documents/AU/PSY310/Delay Discounting/ConditionsFile_DelayDiscounting.csv as conditions, 7 conditions, 3 params
+0.0059 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'reward_today': np.int64(27), 'future_reward': np.int64(50), 'delay': np.int64(21), 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.0378 	EXP 	text: height = np.float64(0.05)
+0.0378 	EXP 	text: height = np.float64(0.05)
+0.0378 	EXP 	text: height = np.float64(0.05)
+0.0378 	EXP 	text: text = 'GBP 27 today or GBP 50 after 21 days'
+0.0378 	EXP 	Fixation: autoDraw = True
+1.0080 	INFO 	Keyboard events cleared
+1.0079 	EXP 	text: autoDraw = True
+1.0408 	EXP 	Fixation: autoDraw = False
+3.9436 	DATA 	Keypress: l
+3.9675 	EXP 	Device response: <KeyPress from None: t=3.942838200018741, value=l, duration=None>
+3.9679 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'reward_today': np.int64(49), 'future_reward': np.int64(60), 'delay': np.int64(89), 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+3.9806 	EXP 	Fixation: autoDraw = False
+3.9806 	EXP 	text: autoDraw = False
+3.9806 	EXP 	text: height = np.float64(0.05)
+3.9806 	EXP 	text: height = np.float64(0.05)
+3.9806 	EXP 	text: height = np.float64(0.05)
+3.9806 	EXP 	text: text = 'GBP 49 today or GBP 60 after 89 days'
+3.9806 	EXP 	Fixation: autoDraw = True
+4.0584 	EXP 	Device response: <KeyPress from None: t=3.942838200018741, value=l, duration=0.11093910003546625>
+4.9743 	INFO 	Keyboard events cleared
+4.9741 	EXP 	text: autoDraw = True
+4.9906 	EXP 	Fixation: autoDraw = False
+6.4088 	EXP 	Device response: <KeyPress from None: t=6.408392500015907, value=t, duration=None>
+6.4104 	DATA 	Keypress: t
+6.4254 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'reward_today': np.int64(11), 'future_reward': np.int64(30), 'delay': np.int64(7), 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+6.4405 	EXP 	Fixation: autoDraw = False
+6.4405 	EXP 	text: autoDraw = False
+6.4405 	EXP 	text: height = np.float64(0.05)
+6.4405 	EXP 	text: height = np.float64(0.05)
+6.4405 	EXP 	text: height = np.float64(0.05)
+6.4405 	EXP 	text: text = 'GBP 11 today or GBP 30 after 7 days'
+6.4405 	EXP 	Fixation: autoDraw = True
+6.5082 	EXP 	Device response: <KeyPress from None: t=6.408392500015907, value=t, duration=0.08475949999410659>
+7.4408 	INFO 	Keyboard events cleared
+7.4405 	EXP 	Fixation: autoDraw = False
+7.4405 	EXP 	text: autoDraw = True
+9.1914 	EXP 	Device response: <KeyPress from None: t=9.18541020003613, value=l, duration=None>
+9.1918 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'reward_today': np.int64(67), 'future_reward': np.int64(75), 'delay': np.int64(119), 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+9.2003 	DATA 	Keypress: l
+9.2072 	EXP 	Fixation: autoDraw = False
+9.2072 	EXP 	text: autoDraw = False
+9.2072 	EXP 	text: height = np.float64(0.05)
+9.2072 	EXP 	text: height = np.float64(0.05)
+9.2072 	EXP 	text: height = np.float64(0.05)
+9.2072 	EXP 	text: text = 'GBP 67 today or GBP 75 after 119 days'
+9.2072 	EXP 	Fixation: autoDraw = True
+9.3080 	EXP 	Device response: <KeyPress from None: t=9.18541020003613, value=l, duration=0.10817130003124475>
+10.1911 	INFO 	Keyboard events cleared
+10.1909 	EXP 	text: autoDraw = True
+10.2072 	EXP 	Fixation: autoDraw = False
+11.9081 	EXP 	Device response: <KeyPress from None: t=11.898066000081599, value=l, duration=None>
+11.9086 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'reward_today': np.int64(78), 'future_reward': np.int64(80), 'delay': np.int64(162), 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+11.9166 	DATA 	Keypress: l
+11.9237 	EXP 	Fixation: autoDraw = False
+11.9237 	EXP 	text: autoDraw = False
+11.9237 	EXP 	text: height = np.float64(0.05)
+11.9237 	EXP 	text: height = np.float64(0.05)
+11.9237 	EXP 	text: height = np.float64(0.05)
+11.9237 	EXP 	text: text = 'GBP 78 today or GBP 80 after 162 days'
+11.9237 	EXP 	Fixation: autoDraw = True
+12.0250 	EXP 	Device response: <KeyPress from None: t=11.898066000081599, value=l, duration=0.11601040000095963>
+12.9241 	INFO 	Keyboard events cleared
+12.9239 	EXP 	Fixation: autoDraw = False
+12.9239 	EXP 	text: autoDraw = True
+15.1413 	EXP 	Device response: <KeyPress from None: t=15.134801500011235, value=t, duration=None>
+15.1418 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'reward_today': np.int64(40), 'future_reward': np.int64(55), 'delay': np.int64(62), 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+15.1504 	DATA 	Keypress: t
+15.1570 	EXP 	Fixation: autoDraw = False
+15.1570 	EXP 	text: autoDraw = False
+15.1570 	EXP 	text: height = np.float64(0.05)
+15.1570 	EXP 	text: height = np.float64(0.05)
+15.1570 	EXP 	text: height = np.float64(0.05)
+15.1570 	EXP 	text: text = 'GBP 40 today or GBP 55 after 62 days'
+15.1570 	EXP 	Fixation: autoDraw = True
+15.2244 	EXP 	Device response: <KeyPress from None: t=15.134801500011235, value=t, duration=0.0799424999859184>
+16.1576 	INFO 	Keyboard events cleared
+16.1574 	EXP 	Fixation: autoDraw = False
+16.1574 	EXP 	text: autoDraw = True
+18.2244 	EXP 	Device response: <KeyPress from None: t=18.213581500109285, value=t, duration=None>
+18.2248 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'reward_today': np.int64(15), 'future_reward': np.int64(35), 'delay': np.int64(13), 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+18.2324 	DATA 	Keypress: t
+18.2404 	EXP 	Fixation: autoDraw = False
+18.2404 	EXP 	text: autoDraw = False
+18.2404 	EXP 	text: height = np.float64(0.05)
+18.2404 	EXP 	text: height = np.float64(0.05)
+18.2404 	EXP 	text: height = np.float64(0.05)
+18.2404 	EXP 	text: text = 'GBP 15 today or GBP 35 after 13 days'
+18.2404 	EXP 	Fixation: autoDraw = True
+18.2908 	EXP 	Device response: <KeyPress from None: t=18.213581500109285, value=t, duration=0.06340269988868386>
+19.2407 	INFO 	Keyboard events cleared
+19.2405 	EXP 	Fixation: autoDraw = False
+19.2405 	EXP 	text: autoDraw = True
+20.9749 	EXP 	Device response: <KeyPress from None: t=20.969006500090472, value=l, duration=None>
+20.9762 	DATA 	Keypress: l
+20.9903 	EXP 	Fixation: autoDraw = False
+20.9903 	EXP 	text: autoDraw = False
+20.9906 	EXP 	DelayDiscounting_Experiment: status = STOPPED
+20.9997 	INFO 	saved data to 'C:\\Users\\Darsh Modi\\OneDrive\\Documents\\AU\\PSY310\\Delay Discounting\\data\\P001_DelayDiscounting_Experiment_2025-10-16_09h48.39.182.csv'
+21.0026 	INFO 	saved data to C:\Users\Darsh Modi\OneDrive\Documents\AU\PSY310\Delay Discounting\data\P001_DelayDiscounting_Experiment_2025-10-16_09h48.39.182.psydat
+21.2870 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+21.3315 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
