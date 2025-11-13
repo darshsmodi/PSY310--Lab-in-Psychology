@@ -1,0 +1,13 @@
+delay,freq,condition
+0.1,400,unexp
+0.4,400,unexp
+0.7,400,unexp
+0.1,1000,exp
+0.4,1000,exp
+0.7,1000,exp
+0.1,1000,exp
+0.4,1000,exp
+0.7,1000,exp
+0.1,1000,exp
+0.4,1000,exp
+0.7,1000,exp
